@@ -7,7 +7,7 @@ import pandas as pd
 import xlwt
 import csv
 from datetime import datetime
-
+import numpy as np
 
 def try_search(tag,sy,sm,sd,ey,em,ed,theme):
     if tag==0:
